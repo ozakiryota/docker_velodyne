@@ -27,7 +27,7 @@ RUN apt-get update && apt-get install -y \
 		ros-kinetic-angles \
 		libyaml-cpp-dev \
 		libpcap0.8-dev
-########## but_velodyne_lib ##########
+########## velodyne ##########
 RUN cd /home/ros_catkin_ws/src &&\
 	git clone https://github.com/ros-drivers/velodyne && \
 	cd /home/ros_catkin_ws &&\
