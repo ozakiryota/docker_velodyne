@@ -1,6 +1,6 @@
 #!/bin/bash
 
-image_name="velodyne_driver"
+image_name="legoloam"
 
 docker run -it --rm \
 	--net=host \

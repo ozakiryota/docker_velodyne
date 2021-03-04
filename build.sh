@@ -1,4 +1,4 @@
 #!/bin/bash
 
-image_name="velodyne_driver"
+image_name="legoloam"
 docker build -t $image_name:latest .
